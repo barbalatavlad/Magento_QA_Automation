@@ -7,18 +7,25 @@ import org.openqa.selenium.support.FindBy;
 import utils.Utils;
 
 public class SignInPage extends BasePage {
+
     @FindBy(xpath = "//button[@class='action login primary']")
     private WebElement signInButton;
+
     @FindBy(xpath = "//div[@class='message-error error message']")
     private WebElement errorMessage;
+
     @FindBy(css = "#email")
     private WebElement emailField;
+
     @FindBy(css = "#email-error")
     private WebElement emailError;
+
     @FindBy(css = "#pass-error")
     private WebElement passwordError;
+
     @FindBy(xpath = "//a[@class='action remind']")
     private WebElement forgotPasswordMessage;
+
     @FindBy(xpath = "//input[@name='login[password]']")
     private WebElement passwordField;
 

@@ -6,8 +6,8 @@ import pages.HomePage;
 import pages.MyAccountPage;
 import utils.Utils;
 
-
 public class CreateAccountTest extends BaseTest {
+
     @Test
     public void createNewAccountTest() {
         HomePage homePage = new HomePage(driver);

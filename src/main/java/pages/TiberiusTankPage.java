@@ -7,14 +7,19 @@ import org.openqa.selenium.support.FindBy;
 import utils.Utils;
 
 public class TiberiusTankPage extends BasePage {
+
     @FindBy(css = "#option-label-size-143-item-168")
     private WebElement mSize;
+
     @FindBy(css = "#option-label-color-93-item-60")
     private WebElement color;
+
     @FindBy(css = "#product-addtocart-button")
     private WebElement addToCart;
+
     @FindBy(css = ".message-success")
     private WebElement thankYouMessage;
+
     @FindBy(xpath = "//a[contains(text(), 'Tops')]")
     private WebElement topsLink;
 

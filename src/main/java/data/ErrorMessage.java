@@ -6,6 +6,4 @@ public class ErrorMessage {
     public static final String INCORRECT_EMAIL_MESSAGE = "Please enter a valid email address (Ex: johndoe@domain.com).";
     public static final String INCORRECT_PASSWORD_MESSAGE = "This is a required field.";
     public static final String MISSING_EMAIL_MESSAGE = "This is a required field.";
-
-
 }

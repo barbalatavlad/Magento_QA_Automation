@@ -8,10 +8,13 @@ import org.openqa.selenium.support.FindBy;
 import utils.Utils;
 
 public class ShippingPage extends BasePage {
+
     @FindBy(css = "#H3U1XF0")
     private WebElement cityField;
+
     @FindBy(css = "#O9RFCUU")
     private WebElement streetField;
+
     @FindBy(css = "#G467JCJ")
     private WebElement countryDropdown;
 

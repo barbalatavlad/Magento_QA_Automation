@@ -7,8 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import utils.Utils;
 
 public class MyAccountPage extends BasePage {
+
     @FindBy(css = ".message.success.success.message")
     private WebElement thankYouMessage;
+
     public MyAccountPage(WebDriver driver) {
         super(driver);
     }

@@ -9,7 +9,6 @@ import pages.MenPage;
 import pages.VulcanTankPage;
 import pages.TiberiusTankPage;
 
-
 public class EndToEndTest extends BaseTest {
 
     @Test
